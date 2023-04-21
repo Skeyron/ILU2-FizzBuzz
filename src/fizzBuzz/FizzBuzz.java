@@ -8,7 +8,7 @@ public class FizzBuzz {
 	
 	public String fizzBuzz(int entree) {
 		for (int i = 0; i < nbSpeciales.length; i++) {
-			if (entree == nbSpeciales[i]){
+			if (entree % nbSpeciales[i] == 0){
 				return valSpeciales[i];
 			}
 		}

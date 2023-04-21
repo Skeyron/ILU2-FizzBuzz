@@ -34,12 +34,14 @@ class FizzBuzzTest {
 	@Test
 	void test_nombres() {
 		assertEquals("4", fb.fizzBuzz(4));
-		assertEquals("12312", fb.fizzBuzz(12312));
-		assertEquals("400", fb.fizzBuzz(400));
+
 	}
 	
 	@Test
-	void test5() {
-		assertEquals("buzz", fb.fizzBuzz(5));
+	void test6() {
+		assertEquals("fizz", fb.fizzBuzz(6));
+		assertEquals("fizz", fb.fizzBuzz(12312));
+		assertEquals("buzz", fb.fizzBuzz(400));
 	}
+	
 }
