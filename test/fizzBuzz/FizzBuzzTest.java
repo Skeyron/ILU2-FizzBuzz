@@ -50,8 +50,12 @@ class FizzBuzzTest {
 		assertEquals("fizzbuzz", fb.fizzBuzz(15));
 	}
 	
-	
-	
+	@Test
+	void test8() {
+		assertEquals("fizzbuzz", fb.fizzBuzz(6*5*3*12312312));
+		assertEquals("fizz", fb.fizzBuzz(3*999));
+		assertEquals("100001", fb.fizzBuzz(100001));
+	}
 	
 	
 }
